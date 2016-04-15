@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>topic_array</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>商户介绍</string>
+			<key>normal</key>
+			<string>prepaid_detailtopic_marsurround_normal</string>
+			<key>highlighted</key>
+			<string>prepaid_detailtopic_marsurround_highlighted</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>优惠详情</string>
+			<key>normal</key>
+			<string>prepaid_detailtopic_saledetail_normal</string>
+			<key>highlighted</key>
+			<string>prepaid_detailtopic_saledetail_highlighted</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>使用需知</string>
+			<key>normal</key>
+			<string>prepaid_detailtopic_notice_normal</string>
+			<key>highlighted</key>
+			<string>prepaid_detailtopic_notice_highlighted</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>位置导航</string>
+			<key>normal</key>
+			<string>prepaid_detailtopic_local_normal</string>
+			<key>highlighted</key>
+			<string>prepaid_detailtopic_local_highlighted</string>
+		</dict>
+	</array>
+</dict>
+</plist>

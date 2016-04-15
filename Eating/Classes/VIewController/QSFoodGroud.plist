@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>channel</key>
+	<array>
+		<dict>
+			<key>normal</key>
+			<string>foodgroud_local_normal</string>
+			<key>highlighted</key>
+			<string>foodgroud_local_highlighted</string>
+		</dict>
+		<dict>
+			<key>normal</key>
+			<string>foodgroud_foodtopic_normal</string>
+			<key>highlighted</key>
+			<string>foodgroud_foodtopic_highlighted</string>
+		</dict>
+		<dict>
+			<key>normal</key>
+			<string>foodgroud_interested_normal</string>
+			<key>highlighted</key>
+			<string>foodgroud_interested_highlighted</string>
+		</dict>
+		<dict>
+			<key>normal</key>
+			<string>foodgroud_systemic_normal</string>
+			<key>highlighted</key>
+			<string>foodgroud_systemic_highlighted</string>
+		</dict>
+	</array>
+</dict>
+</plist>

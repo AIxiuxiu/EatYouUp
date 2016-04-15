@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D07F9D72-3664-4C62-A33C-9A713DFB5EEB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Eating</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AAF0B7E6A21280DA7F512C6F8C1F18109C5C11BB</key>
+		<string>https://github.com/Cain1127/Eating2.0.0.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Eating2.0/Eating.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AAF0B7E6A21280DA7F512C6F8C1F18109C5C11BB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Cain1127/Eating2.0.0.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AAF0B7E6A21280DA7F512C6F8C1F18109C5C11BB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AAF0B7E6A21280DA7F512C6F8C1F18109C5C11BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Eating2.0.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

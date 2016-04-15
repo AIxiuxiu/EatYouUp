@@ -1,0 +1,25 @@
+//
+//  Eating-Prefix.pch
+//  Eating
+//
+//  Created by ysmeng on 14/12/1.
+//  Copyright (c) 2014年 Quentin. All rights reserved.
+//
+
+#ifndef Eating_Eating_Prefix_pch
+#define Eating_Eating_Prefix_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+//***************************************
+//      单例创建宏
+//***************************************
+#import "QSSingletonHeader.h"
+
+//***************************************
+//      优惠卷类型
+//***************************************
+#import "CouponTypeHeader.h"
+
+#endif

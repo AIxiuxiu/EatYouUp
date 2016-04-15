@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>shareType</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<string></string>
+			<key>image_normal</key>
+			<string>sharefoodstore_sharetype_sina_highlighted</string>
+			<key>image_highlighted</key>
+			<string>sharefoodstore_sharetype_sina_normal</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string></string>
+			<key>image_normal</key>
+			<string>sharefoodstore_sharetype_tencent_highlighted</string>
+			<key>image_highlighted</key>
+			<string>sharefoodstore_sharetype_tencent_normal</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string></string>
+			<key>image_normal</key>
+			<string>sharefoodstore_sharetype_qq_highlighted</string>
+			<key>image_highlighted</key>
+			<string>sharefoodstore_sharetype_qq_normal</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string></string>
+			<key>image_normal</key>
+			<string>sharefoodstore_sharetype_wechat_highlighted</string>
+			<key>image_highlighted</key>
+			<string>sharefoodstore_sharetype_wechat_normal</string>
+		</dict>
+	</array>
+</dict>
+</plist>

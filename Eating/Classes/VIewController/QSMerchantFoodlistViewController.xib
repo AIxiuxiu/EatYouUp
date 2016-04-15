@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QSMerchantFoodlistViewController">
+            <connections>
+                <outlet property="backButton" destination="dpv-Sh-imP" id="3LN-15-K1G"/>
+                <outlet property="bookButton" destination="fsV-QC-Pzm" id="bZb-dg-buU"/>
+                <outlet property="callButton" destination="H2r-fZ-LGG" id="4ah-w0-v7f"/>
+                <outlet property="cartButton" destination="Tpx-mC-m9c" id="cxu-yH-pHv"/>
+                <outlet property="cartLabel" destination="N98-pp-dJG" id="jKJ-3m-RFW"/>
+                <outlet property="cartView" destination="aUG-sb-yAa" id="Sad-0i-5ja"/>
+                <outlet property="foodTableView" destination="Vcw-Nw-5uM" id="Z7d-Yn-7mc"/>
+                <outlet property="footerView" destination="eIy-u9-ccD" id="gkB-pp-p0s"/>
+                <outlet property="menuButton" destination="s4X-hH-nG7" id="365-rP-a8o"/>
+                <outlet property="orangeBgImageView" destination="65y-6N-TG2" id="ymV-mC-T5a"/>
+                <outlet property="sortButton1" destination="RHY-ml-AD2" id="sHC-6M-THq"/>
+                <outlet property="sortButton2" destination="Eob-Ct-Btm" id="AnU-tv-qK7"/>
+                <outlet property="sortButton3" destination="fCt-lb-M9a" id="k8T-1n-mMY"/>
+                <outlet property="takeoutButton" destination="Ek6-vc-lm2" id="KX4-hk-kV0"/>
+                <outlet property="titleLabel" destination="GN1-ei-7JQ" id="p3N-Rz-PHx"/>
+                <outlet property="topView" destination="B68-fj-737" id="Vdu-zK-rcz"/>
+                <outlet property="topView2" destination="R1J-rd-2XR" id="hEV-HV-gOD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Vcw-Nw-5uM">
+                    <rect key="frame" x="0.0" y="88" width="320" height="430"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="qZ9-2H-FxP"/>
+                        <outlet property="delegate" destination="-1" id="oiP-cd-2NP"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" id="B68-fj-737">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="65y-6N-TG2">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" id="R1J-rd-2XR">
+                            <rect key="frame" x="0.0" y="44" width="320" height="71"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top_view_round" id="fJ3-eu-y8Q">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fCt-lb-M9a">
+                                    <rect key="frame" x="226" y="15" width="44" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" backgroundImage="takeout_header_icon2">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="takeout_header_icon2_click"/>
+                                    <connections>
+                                        <action selector="onFilterButtonAction:" destination="-1" eventType="touchUpInside" id="Chm-sB-5NB"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Eob-Ct-Btm">
+                                    <rect key="frame" x="138" y="24" width="44" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" backgroundImage="merchant_top_icon2">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="merchant_top_icon2_click"/>
+                                    <connections>
+                                        <action selector="onFilterButtonAction:" destination="-1" eventType="touchUpInside" id="2w6-sc-Hkd"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RHY-ml-AD2">
+                                    <rect key="frame" x="50" y="15" width="44" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" backgroundImage="merchant_nav_icon1">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="merchant_nav_icon1_click"/>
+                                    <connections>
+                                        <action selector="onFilterButtonAction:" destination="-1" eventType="touchUpInside" id="k9T-oC-QoQ"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GN1-ei-7JQ">
+                            <rect key="frame" x="81" y="30" width="155" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="dpv-Sh-imP">
+                            <rect key="frame" x="8" y="25" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="nav_turnback_normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="nav_turnback_highlighted"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="s4X-hH-nG7">
+                            <rect key="frame" x="280" y="25" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="food_nav_menu">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onMenuButtonAction:" destination="-1" eventType="touchUpInside" id="5SD-9U-vik"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="eIy-u9-ccD">
+                    <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ek6-vc-lm2">
+                            <rect key="frame" x="154" y="11" width="100" height="28"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onTakeoutButtonAction:" destination="-1" eventType="touchUpInside" id="bUl-0s-IXq"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fsV-QC-Pzm">
+                            <rect key="frame" x="42" y="11" width="100" height="28"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onBookButtonAction:" destination="-1" eventType="touchUpInside" id="qs1-ZZ-5X5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="H2r-fZ-LGG">
+                            <rect key="frame" x="120" y="11" width="80" height="28"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onPhoneCallButtonAction:" destination="-1" eventType="touchUpInside" id="s06-dd-D4i"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" id="aUG-sb-yAa">
+                            <rect key="frame" x="260" y="0.0" width="60" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Tpx-mC-m9c">
+                                    <rect key="frame" x="6" y="9" width="40" height="32"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" backgroundImage="foodlist_footer_buy">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="N98-pp-dJG">
+                                    <rect key="frame" x="32" y="1" width="20" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="273" y="264"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="food_nav_menu" width="30" height="30"/>
+        <image name="foodlist_footer_buy" width="80" height="64"/>
+        <image name="merchant_nav_icon1" width="88" height="88"/>
+        <image name="merchant_nav_icon1_click" width="88" height="88"/>
+        <image name="merchant_top_icon2" width="88" height="88"/>
+        <image name="merchant_top_icon2_click" width="88" height="88"/>
+        <image name="nav_turnback_highlighted" width="30" height="30"/>
+        <image name="nav_turnback_normal" width="30" height="30"/>
+        <image name="takeout_header_icon2" width="88" height="88"/>
+        <image name="takeout_header_icon2_click" width="88" height="88"/>
+        <image name="top_view_round" width="640" height="120"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
